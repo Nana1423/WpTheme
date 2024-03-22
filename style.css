@@ -1,0 +1,15 @@
+/**
+ * Theme Name:        Rent a Car
+ * Description:       Custom theme for RentaCar website, created as practice project
+ * Version:           1.0.0
+ * Author:            Emanuel Leite
+ * Author URI:        https://leite-portfolio.vercel.app/
+ * Tags:              block-patterns, full-site-editing
+ * Tested up to:      8.3.2
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+ body {
+    background-color: red;
+ }
