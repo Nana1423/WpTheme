@@ -1,45 +1,115 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
-    "settings": {
-        "color": {
-			"palette": [
-				{
-					"color": "#3563E9",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#AEC8FC",
-					"name": "Light ",
-					"slug": "light"
-				},
-				{
-					"color": "#7FB519",
-					"name": "Success",
-					"slug": "success"
-				},
-                {
-                    "color": "#DB2719",
-                    "name": "Error",
-                    "slug": "error"
-                },
-                {
-                    "color": "#FFC73A",
-                    "name": "Warning",
-                    "slug": "warning"
-                },
-                {
-                    "color": "#54A6FF",
-                    "name": "Information",
-                    "slug": "information"
-                },
-                {
-                    "color": "#1A202C",
-                    "name": "Secondary",
-                    "slug": "secondary"
-                }
-			]
-		}
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "position": {
+      "sticky": true
+    },
+    "layout": {
+      "contentSize": "80vw",
+      "wideSize": "100vw"
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#3563E9",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#AEC8FC",
+          "name": "Light ",
+          "slug": "light"
+        },
+        {
+          "color": "#7FB519",
+          "name": "Success",
+          "slug": "success"
+        },
+        {
+          "color": "#DB2719",
+          "name": "Error",
+          "slug": "error"
+        },
+        {
+          "color": "#FFC73A",
+          "name": "Warning",
+          "slug": "warning"
+        },
+        {
+          "color": "#54A6FF",
+          "name": "Information",
+          "slug": "information"
+        },
+        {
+          "color": "#1A202C",
+          "name": "Secondary",
+          "slug": "secondary"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "fontFamily": "Plus Jakarta Sans",
+          "fontFace": [
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "200 800",
+              "fontStyle": "ExtraLight",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/PlusJakartaSans.ttf"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "16px"
+        },
+        {
+          "name": "Medium",
+          "slug": "medium",
+          "size": "20px"
+        },
+        {
+          "name": "Large",
+          "slug": "large",
+          "size": "36px"
+        },
+        {
+          "name": "Extra Large",
+          "slug": "x-large",
+          "size": "72px"
+        }
+      ]
     }
+  },
+  "styles": {
+    "color": {
+      "background": "#F6F7F9"
+    },
+    "elements": {
+			"button": {
+				"color": {
+					"text": "#ffffff",
+					"background": "#3563E9"
+				},
+				":hover": {
+					"color": {
+						"background": "#3563E9"
+					}
+				},
+        ":visited": {
+          "color": {
+            "background": "#1A37A7"
+          }
+        }
+			}
+		}
+  }
 }
